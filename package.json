@@ -1,0 +1,38 @@
+{
+    "name": "usdtz-stats",
+    "version": "1.0.0",
+    "description": "usdtz-stats",
+    "scripts": {
+      "stats": "tsc && node dist/stats.js",
+      "export:quipuOne": "tsc && node dist/QuipuOneData.js",
+      "export:quipuTwo": "tsc && node dist/QuipuTwoData.js",
+      "export:vortex": "tsc && node dist/VortexData.js",
+      "export:dexter": "tsc && node dist/DexterData.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://"
+    },
+    "author": "",
+    "license": "UNLICENSED",
+    "bugs": {
+      "url": "https://"
+    },
+    "homepage": "https://",
+    "dependencies": {
+      "big-integer": "^1.6.51",
+      "conseiljs": "^5.2.3",
+      "glob": "^9.3.2",
+      "jsonpath-plus": "^7.2.0",
+      "node-fetch": "^2.6.1",
+      "winston": "^3.8.2"
+    },
+    "engines": {
+      "node": ">=14.0.x",
+      "npm": ">=6.11.x"
+    },
+    "devDependencies": {
+        "@types/node": "^18.14.0",
+        "typescript": "^4.9.5"
+    }
+  }
