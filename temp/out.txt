@@ -1,0 +1,7 @@
+
+> usdtz-stats@1.0.0 stats
+> tsc && node dist/stats.js
+
+missing startingTokenBalance at 1435534/1434933
+aaa, 1435534, 50000000, 50000000, NaN
+exportYieldSeries failed at 1435534
